@@ -1,14 +1,3 @@
-// Create CheckoutPage.js using Page Object Model.
-
-// Requirements:
-// - Locators for checkout button
-// - Locators for address details
-// - Locators for payment fields
-// - Method to place an order
-// - Method to verify order confirmation
-// - No assertions or test logic
-// - Follow real-world checkout flow
-
 export class CheckoutPage {
   constructor(page) {
     this.page = page;

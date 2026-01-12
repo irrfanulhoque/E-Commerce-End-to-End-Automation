@@ -23,7 +23,6 @@ test.describe('User Registration', () => {
     await registerPage.completeAccountDetails(newUser);
     await registerPage.completeAddressDetails(newUser);
     await registerPage.submitRegistration();
-
     await expect(registerPage.getAccountCreatedHeader()).toHaveText(/account created/i);
     await registerPage.confirmAccountCreated();
     await expect(homePage.getLoggedInBanner()).toHaveText(/qa portfolio user/i);

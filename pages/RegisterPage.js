@@ -1,13 +1,3 @@
-// Create RegisterPage.js using Page Object Model.
-
-// Requirements:
-// - Locators for signup name, email, signup button
-// - Locators for registration form fields
-// - Method to register a new user with valid data
-// - Support random email input
-// - No assertions or test logic
-// - Follow clean POM structure
-
 export class RegisterPage {
   constructor(page) {
     this.page = page;

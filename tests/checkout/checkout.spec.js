@@ -23,7 +23,6 @@ test.describe('Checkout Flow', () => {
     await homePage.gotoHome();
     await homePage.openSignupLogin();
     await loginPage.login(testData.existingUser.email, testData.existingUser.password);
-
     await homePage.openProducts();
     await productsPage.waitForProductsToLoad();
     await productsPage.addProductToCart(productName);

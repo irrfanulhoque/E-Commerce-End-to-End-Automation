@@ -1,9 +1,4 @@
-// Write emptyCartCheckout.spec.js.
 
-// Requirements:
-// - Attempt checkout with empty cart
-// - Assert proper error or restriction message
-// - Negative scenario
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../../pages/HomePage.js';
 import { CartPage } from '../../pages/CartPage.js';

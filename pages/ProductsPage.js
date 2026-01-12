@@ -1,15 +1,3 @@
-// Create ProductsPage.js for product-related actions.
-
-// Requirements:
-// - Locators for product list
-// - Locator for search input and search button
-// - Locator for add-to-cart button
-// - Methods to:
-//   - View product list
-//   - Search product
-//   - Add product to cart
-// - No assertions
-// - Reusable and readable code
 
 export class ProductsPage {
   constructor(page) {

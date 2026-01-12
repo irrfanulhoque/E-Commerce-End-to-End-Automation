@@ -1,16 +1,3 @@
-// Create LoginPage.js using Page Object Model.
-
-// Requirements:
-// - Locators for login email, password, login button, error message, logout link
-// - Methods for:
-//   - Navigate to login page
-//   - Login with credentials
-// - No test logic or assertions
-// - Use baseURL navigation pattern
-// - Keep methods reusable and clean
-
-// Follow Playwright + JS best practices.
-
 export class LoginPage {
   constructor(page) {
     this.page = page;

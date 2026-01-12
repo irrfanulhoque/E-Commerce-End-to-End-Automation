@@ -24,7 +24,6 @@ test.describe('User Login', () => {
     await registerPage.submitRegistration();
     await registerPage.confirmAccountCreated();
     await homePage.logout();
-
     await homePage.openSignupLogin();
     await loginPage.login(user.email, user.password);
 

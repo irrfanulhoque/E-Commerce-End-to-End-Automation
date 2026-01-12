@@ -1,17 +1,3 @@
-// You are creating a Page Object class for HomePage.js.
-
-// Requirements:
-// - Use constructor with Playwright page
-// - Add locators for:
-//   - Login/Signup link
-//   - Products link
-//   - Cart link
-// - Add navigation methods only
-// - Do NOT add assertions
-// - Follow Page Object Model strictly
-// - Use clean, readable locators
-
-// This file must be reusable across multiple test cases.
 
 export class HomePage {
   constructor(page) {

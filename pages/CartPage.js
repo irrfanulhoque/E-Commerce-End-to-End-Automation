@@ -1,15 +1,3 @@
-// Create CartPage.js using Page Object Model.
-
-// Requirements:
-// - Locators for cart items
-// - Locators for quantity and price
-// - Locator for remove item
-// - Methods for:
-//   - Validate cart items
-//   - Remove product from cart
-// - No assertions
-// - Clean, reusable methods
-
 export class CartPage {
   constructor(page) {
     this.page = page;

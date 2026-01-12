@@ -1,11 +1,3 @@
-// Write invalidLogin.spec.js.
-
-// Requirements:
-// - Attempt login with invalid credentials
-// - Assert error message is displayed
-// - Use LoginPage
-// - Keep test readable and clean
-// - Negative test mindset
 
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../../pages/HomePage.js';
