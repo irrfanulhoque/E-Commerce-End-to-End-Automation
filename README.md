@@ -35,35 +35,6 @@ The tests are executed against the **Automation Exercise** demo site:
 
 ---
 
-## Project Structure
-automationexercise-playwright/
-│
-├── tests/ # Test scripts organized by feature
-│ ├── auth/ # Registration & login tests
-│ ├── products/ # Product listing & search tests
-│ ├── cart/ # Cart validation & add-to-cart tests
-│ ├── checkout/ # Checkout tests
-│ └── negative/ # Negative scenarios
-│
-├── pages/ # Page Object classes
-│ ├── HomePage.js
-│ ├── LoginPage.js
-│ ├── RegisterPage.js
-│ ├── ProductsPage.js
-│ ├── CartPage.js
-│ └── CheckoutPage.js
-│
-├── utils/ # Reusable helpers and test data
-│ ├── testData.js
-│ └── helpers.js
-│
-├── playwright.config.js # Playwright configuration
-├── package.json # Project dependencies
-└── README.md
-
-
----
-
 ## Features Tested
 
 - User Registration (Valid Data)  
